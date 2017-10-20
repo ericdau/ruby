@@ -38,9 +38,9 @@ module Ex25
 
     # Sorts the words then prints the first and last one.
     def Ex25.print_first_and_last_sorted(sentence)
-      words = Ex25.sort_sencence(sentence)
+      words = Ex25.sort_sentence(sentence)
       Ex25.print_first_word(words)
       Ex25.print_last_word(words)
     end
 
-  end    
+  end
